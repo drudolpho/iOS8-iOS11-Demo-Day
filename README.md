@@ -16,36 +16,45 @@ The video demo is for sharing your work on your portfolio, but it is also a fall
 
 ## Links (Add your links)
 
-* Code: `<insert Github repository link here>`
-* Trello/Github Project Kanban: `<insert trello board here>`
-* Test Flight: `<insert beta signup link here>`
-* YouTube demo video: `<insert video url here>`
+* Code: https://github.com/narmkumar/MedicationTrackerLite
+* Trello/Github Project Kanban: https://www.taskade.com/v/Na2BVjB5p4UHz2RD
+* Test Flight: 
+* YouTube demo video: 
 
 ## Questions (Answer indented below)
 
 1. What was your favorite feature to implement? Why?
 
-    `<Your answer here>`
+    My favorite feature to implement was the dynamic cell title that changes based on the current day. I liked it because we had to do research on our own to figure out how it works and it was very satisfying once we got it.
 
 2. What was your #1 obstacle or bug that you fixed? How did you fix it?
 
-    `<Your answer here>`
+    Messing up on little details that were hard to spot. We often finished a feature but couldnt get it to work properly despite having sound logic. The little mistakes are the easiest to make and the hardest to find. 
   
 3. Share a chunk of code (or file) you're proud of and explain why.
-
-    `<Your answer here>`
-  
+    
+     private func clicked(button: UIButton) -> Bool {
+        let wasClicked: Bool
+        if button.isSelected == true {
+                   wasClicked = true
+               } else {
+                   wasClicked = false
+               }
+        return wasClicked
+    } 
+        - This was made to turn this process into a function instead of calling it for every button. It was satisfying making everything look cleaner after implementing this.
+        
 4. What is your elevator pitch? (30 second description your Grandma or a 5-year old would understand)
 
-    `<Your answer here>`
+    Medication Tracker Lite is the perfect app for anyone who wants to keep track of the medications they need to take on a daily basis. It’s this simple: input your medication info and frequency of consumption, along with a description, and you’re good to go! Every day, the app will refresh and update so you will know exactly what meds need to be taken for that day.
   
 5. What is your #1 feature?
 
-    `<Your answer here>`
+    Our number one feature is sorting the users medications by the day they are supposed to be taken, but primarily displaying just those that are taken today.  
   
 6. What are you future goals?
 
-    `<Your answer here>`
+    We want to add an option for our users to set an alarm or reminder whenever they need to take their medication. 
 
 ## Required Slides (Add your Keynote to your PR)
 
